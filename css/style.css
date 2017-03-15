@@ -1,0 +1,90 @@
+@import url(sanitize.css);
+
+@import url(basic_style.css);
+
+.mini-horiz .screen:nth-of-type(2) span {
+	display: none;
+	max-width: max-content;
+	max-height: max-content;
+	box-shadow: 0 0 8px -1px #ddd;
+	line-height: 77%;
+	background-color: #fff;
+	background-image: url(../img/card.png);
+	background-blend-mode: luminosity;
+    background-size: 170px;
+    background-repeat: repeat;
+    background-position: 10% 50%;
+    text-shadow: 10px 0 2px white;
+    border: solid 10px #eefaff;
+    box-shadow:
+/*        0 0 8px -1px #ddd,*/
+    			inset 0 5px 1px #fff,
+    			inset 0 40px 0 rgba(255, 255, 255, 0.5);
+}
+
+.mini-horiz .screen:nth-of-type(2) span:nth-of-type(2) {
+	display: block;
+	margin: 0 auto;
+}
+
+.small-vert .screen:nth-of-type(2) span {
+	box-shadow: 0 0 8px -1px #ddd;
+	line-height: normal;
+	background-color: #fff;
+	background-image: url(../img/card.png);
+	background-blend-mode: luminosity;
+    background-size: 170px;
+    background-repeat: repeat;
+    background-position: 10% 50%;
+    text-shadow: 10px 0 2px white;
+    border: solid 10px #fff;
+    box-shadow: 0 0 8px -1px #ddd,
+    			inset 0 5px 1px white,
+    			inset 0 40px 0 rgba(255, 255, 255, 0.5);
+
+
+    display: inline-block;
+    transform: scale(1.1);
+}
+
+.middle-vert .screen:nth-of-type(1) {
+	padding-top: 25px;
+}
+
+.middle-vert .screen:nth-of-type(1) span {
+	box-shadow: 0 0 8px -1px #ddd;
+	line-height: normal;
+	background-color: #fff;
+	background-image: url(../img/card.png);
+	background-blend-mode: luminosity;
+    background-size: 170px;
+    background-repeat: repeat;
+    background-position: 10% 50%;
+    text-shadow: 10px 0 2px white;
+    border: solid 10px #fff;
+    border-top: solid 15px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 8px -1px #ddd,
+    			inset 0 5px 1px white,
+    			inset 0 -0.95em 0 rgba(255, 255, 255, 0.5);
+
+}
+.middle-vert .screen:nth-of-type(2) {
+	padding-top: 25px;
+}
+.middle-vert .screen:nth-of-type(2) span {
+	box-shadow: 0 0 8px -1px #ddd;
+	line-height: initial;
+	background-color: #fff;
+	background-image: url(../img/card.png);
+	background-blend-mode: luminosity;
+    background-size: 170px;
+    background-repeat: repeat;
+    background-position: 10% 50%;
+    text-shadow: 10px 0 2px #fff;
+    border: solid 10px #fff;
+    border-top: solid 15px rgba(255, 255, 255, 0.6);
+
+    display: inline-block;
+    transform: scale(1.2);
+}
+
