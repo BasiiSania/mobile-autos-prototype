@@ -91,17 +91,16 @@ h1:hover {
 }
 
 .mini-horiz .screen:nth-of-type(1) {
-	width: 85px;
+	width: 85px; 
 }
 .mini-horiz .screen:nth-of-type(2) {
-	width: 130px;
+	width: 130px; height: 95px;
 }
-
 .mini-horiz .screen:nth-of-type(3) {
-	width: 800px;
+	width: 800px;height: 80px;
 }
 .mini-horiz .screen:nth-of-type(4) {
-	width: 200px;
+	width: 200px; height: 95px;
 }
 .mini-horiz .screen:nth-of-type(5) {
 	width: 160px;
@@ -114,28 +113,29 @@ h1:hover {
 	width: 85px;
 }
 .mini-vert .screen:nth-of-type(1) {
-	height: 160px;
+	height: 160px; width: 95px;
+    top: 5px;
 }
 
 .mini-vert .screen:nth-of-type(2) {
 	height: 160px;
 }
 .mini-vert .screen:nth-of-type(3) {
-	height: 200px;
+	height: 200px; width: 90px;
 }
 .mini-vert .screen:nth-of-type(4) {
-	height: 800px;
+	height: 800px; width: 80px;
 }
 
 
 /*small-horiz*/
 .small-horiz {
-	left: 280px;
+	left: 285px;
 	top: 130px;
 	height: 140px;
 }
 .small-horiz .screen {
-	margin: 15px;
+	margin: 16px;
 	box-shadow: 0 0 5px 12px #000,
             inset 0 0 2px #000;
 }
@@ -143,13 +143,13 @@ h1:hover {
 	width: 200px;
 }
 .small-horiz .screen:nth-of-type(2) {
-	width: 300px;
+	width: 300px; height: 150px;
 }
 .small-horiz .screen:nth-of-type(3) {
 	width: 140px;
 }
 .small-horiz .screen:nth-of-type(4) {
-	width: 600px;
+	width: 600px; height: 155px;
 }
 
 /*small-vert*/
@@ -159,7 +159,7 @@ h1:hover {
 	width: 130px;
 }
 .small-vert .screen {
-	margin: 15px;
+	margin: 16px;
 	box-shadow: 0 0 5px 12px #000,
             inset 0 0 2px #000;
 }
@@ -177,12 +177,12 @@ h1:hover {
 
 /*middle-horiz*/
 .middle-horiz {
-	left: 290px;
-	top: 310px;
+	left: 285px;
+	top: 305px;
 	height: 270px;
 }
 .middle-horiz .screen {
-	margin: 19px;
+	margin: 23px;
 	box-shadow: 0 0 5px 15px #000,
             inset 0 0 2px #000;
 }
@@ -199,12 +199,12 @@ h1:hover {
 
 /*middle-vert*/
 .middle-vert {
-	left: 290px;
-	top: 625px;
+	left: 285px;
+	top: 620px;
 	width: 270px;
 }
 .middle-vert .screen {
-	margin: 19px;
+	margin: 23px;
 	box-shadow: 0 0 5px 15px #000,
             inset 0 0 2px #000;
 }

@@ -88,3 +88,21 @@
     transform: scale(1.2);
 }
 
+.close-horiz .screen:nth-of-type(2) div:nth-of-type(1) {
+	position: absolute;
+    bottom:50px; left:0;
+    color: black; font-size: 200px;
+    width: 100%;
+}
+.close-horiz .screen:nth-of-type(2) div:nth-of-type(2) {
+	position: absolute; 
+    bottom:50px; left:0;
+    color: aliceblue; font-size: 201px; 
+    width: 100%;
+}
+.close-horiz .screen:nth-of-type(2) div:nth-of-type(3) {
+    font-size: 200px;
+    color: aliceblue;
+    text-shadow: 1px 0 0 black,
+        -1px 0 0 black;
+}
